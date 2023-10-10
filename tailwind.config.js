@@ -5,7 +5,12 @@ export default {
     preflight: true,
   },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        cgray: '#f9fafb',
+        cbordergray: '#d2d5da',
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
