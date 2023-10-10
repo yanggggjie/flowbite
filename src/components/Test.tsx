@@ -11,6 +11,8 @@ import WithShadow from '@/tables/WithShadow.js'
 import OverflowScrolling from '@/tables/OverflowScrolling.js'
 import TableSearch from '@/tables/TableSearch.js'
 import TableFilter from '@/tables/TableFilter.js'
+import { useState } from 'react'
+import { findDOMNode } from 'react-dom'
 interface Props {}
 
 function Component({}: Props) {

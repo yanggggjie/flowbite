@@ -159,7 +159,11 @@ function Component({}: Props) {
                 <td className={clsx('w-1/5 px-4 py-2')}>{item.color}</td>
                 <td className={clsx('w-1/5 px-4 py-2')}>{item.category}</td>
                 <td className={clsx('w-1/5 px-4 py-2')}>{item.price}</td>
-                <td className={clsx('w-1/5 px-4 py-2')}>{item.action}</td>
+                <td className={clsx('w-1/5 px-4 py-2')}>
+                  <a href="" className={clsx('underline text-blue-500')}>
+                    {item.action}
+                  </a>
+                </td>
               </tr>
             )
           })}
